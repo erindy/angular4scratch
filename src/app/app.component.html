@@ -1,5 +1,5 @@
 <h1>Angular</h1>
 <app-courses></app-courses>
 
-
-<app-favorite [is-favorite]="post.isFavorite" ></app-favorite>
+<br/>
+<app-favorite [isFavorite]="post.isFavorite" (change)="OnFavoriteChanged($event)"></app-favorite>

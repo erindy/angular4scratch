@@ -1,3 +1,6 @@
-<p>
-  favorite works!
-</p>
+<span>
+  class="glyphicon"
+  [class.glyphicon-start]="isSelected"
+  [class.glyphicon-start-empty]="!isSelected"
+  (click)="onClick()"
+</span>
